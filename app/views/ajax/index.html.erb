@@ -1,0 +1,17 @@
+<!--<h1>Ajax#inde</h1>-->
+<h1>Information</h1>
+<hr>
+<div id="result">no information</div>
+<script>
+var f = function(){
+	$.ajax({
+		type: 'GET',
+		url: '/ajax/data',
+		success: function(data) {
+			console.log('success.');
+		}
+	});
+};
+setTimeout(f, 600000);
+f();
+</script>
