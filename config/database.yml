@@ -20,6 +20,10 @@ test:
   <<: *default
   database: db/test.sqlite3
 
+# production:
+#  <<: *default
+#  database: db/production.
+
 production:
-  <<: *default
-  database: db/production.postgresql
+  encoding: utf8
+  adapter: postgresql
