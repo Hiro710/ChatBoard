@@ -27,3 +27,8 @@ test:
 production:
   encoding: utf8
   adapter: postgresql
+  port: 5432
+  username: haoikkygfcuqet
+  host: ec2-107-20-204-179.compute-1.amazonaws.com
+  database: db0fbhqibf5dri
+  password: 876a7555f6bf2a4cf9904c34ec512768b3a4bb4783ef638650ac5de3d069ba8a
