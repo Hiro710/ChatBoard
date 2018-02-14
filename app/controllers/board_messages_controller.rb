@@ -61,4 +61,5 @@ class BoardMessagesController < ApplicationController
 	def board_message_params
 		params.require(:board_message).permit(:content, :board_user_id)
 	end
+
 end

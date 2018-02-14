@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
-<h1>Message Board</h1>
+<h1>大喜利総合掲示板</h1>
 <%= render 'form', board_message: @board_message %>
-<p><%= link_to 'go home >>', controller: :board_users %></p>
+<p><%= link_to 'User Settings >>', controller: :board_users %></p>
 <hr>
-<h2>※Posted Messages.</h2>
+<h2>投稿一覧</h2>
 <table width="90%">
 	<thead>
 		<tr>
@@ -22,6 +22,7 @@
 	</tbody>
 </table>
 <br>
+
 <div><%= paginate @board_messages %></div>
 <hr>
-<div>copyright SYODA-Tuyano 2016.</div>
+<div>copyright NBU students 2018.</div>

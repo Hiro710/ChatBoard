@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160923101211) do
+ActiveRecord::Schema.define(version: 20180204020439) do
 
   create_table "accounts", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -88,6 +88,13 @@ ActiveRecord::Schema.define(version: 20160923101211) do
 
   create_table "data_pages", force: :cascade do |t|
     t.text "data"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "likes", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "post_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
