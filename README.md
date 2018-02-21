@@ -1,24 +1,20 @@
-# README
+# ChatBoard
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is graduation product for Nagoya Bunri University.  
+I made Oogiri bulletin board with Ruby on rails. It can also be used as Oogiri Community.  
 
-Things you may want to cover:
+## Development environment
 
-* Ruby version
+* macOS Sierra
+* Ruby
+* Ruby on rails5
 
-* System dependencies
+## How to use
 
-* Configuration
+**After logging in, enter your contribution content in the content field and click the button.  
+User profile editing is also available.**
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### MIT License  
+Copyright (c) 2013 Toropon  
+Released under the MIT license  
+http://opensource.org/licenses/mit-license.php
