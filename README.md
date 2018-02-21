@@ -1,6 +1,6 @@
 # ChatBoard
 
-This application is graduation product for Nagoya Bunri University.  
+This application is graduation product for Nagoya Bunri University. 
 I made Oogiri bulletin board with Ruby on rails. It can also be used as Oogiri Community.  
 
 ## Development environment
@@ -9,19 +9,25 @@ I made Oogiri bulletin board with Ruby on rails. It can also be used as Oogiri C
 * Ruby
 * Ruby on rails5
 
+See gemfile for details.
+
 ## Get Started
 
 Please download from this repository to any folder
 
-    $ git clone 
+    $ git clone https://github.com/Hiro710/ChatBoard.git
+    
+Update gem with bundle install
+
+    $ bundle install
 
 Next do the following which will create db/migrate/schema.rb
 
     $ rake db:migrate    
 
-Then start the server
+Then start the rails server
 
-    $ rails server
+    $ rails s
 
 Use browser to visit `http://localhost:3000`
 
