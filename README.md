@@ -15,6 +15,6 @@ I made Oogiri bulletin board with Ruby on rails. It can also be used as Oogiri C
 User profile editing is also available.**
 
 ### MIT License  
-Copyright (c) 2013 Toropon  
+Copyright (c) 2018 Toropon  
 Released under the MIT license  
 http://opensource.org/licenses/mit-license.php
