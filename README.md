@@ -33,8 +33,8 @@ Use browser to visit `http://localhost:3000`
 
 ## How to use
 
-**After logging in, enter your contribution content in the content field and click the button.  
-User profile editing is also available.**
+After logging in, enter your contribution content in the content field and click the button.  
+User profile editing is also available.
 
 ### MIT License  
 Copyright (c) 2018 Toropon  
