@@ -1,7 +1,7 @@
-# ChatBoard
+# ChatBoardApp(Oogiri bulletin board)
 
-This application is graduation product for Nagoya Bunri University. I made Oogiri bulletin board with Ruby on rails.   
-It can also be used as Oogiri Community.  
+**This application is graduation product for Nagoya Bunri University. I made Oogiri bulletin board with Ruby on rails.   
+It can also be used as Oogiri Community.**  
 
 ## Development environment
 
