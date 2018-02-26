@@ -37,6 +37,6 @@ After logging in, enter your contribution content in the content field and click
 User profile editing is also available.
 
 ### MIT License  
-Copyright (c) 2018 Toropon  
+Copyright (c) 2018 Hiro710  
 Released under the MIT license  
 http://opensource.org/licenses/mit-license.php
