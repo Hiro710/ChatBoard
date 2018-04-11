@@ -6,8 +6,8 @@ It can also be used as Oogiri Community.**
 ## Development environment
 
 * macOS Sierra
-* Ruby
-* Ruby on rails5
+* Ruby 2.x
+* Ruby on rails5.1
 
 See gemfile for details.
 
@@ -30,6 +30,7 @@ Then start the rails server
     $ rails s
 
 Use browser to visit `http://localhost:3000`
+(use Chrome)
 
 ## How to use
 
