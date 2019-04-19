@@ -5,15 +5,14 @@ It can also be used as Oogiri Community.**
 
 ## Development environment
 
-* macOS Sierra
 * Ruby 2.x
-* Ruby on rails5.1
+* Ruby on Rails 5.2.3
 
 See gemfile for details.
 
 ## Get Started
 
-Please download from this repository to any folder
+Please download from this repository to any folder or download zipfile to desktop any place.
 
     $ git clone https://github.com/Hiro710/ChatBoard.git
     
