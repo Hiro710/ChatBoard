@@ -1,20 +1,10 @@
 Rails.application.routes.draw do
 
 	root 'board_messages#index'
-	# root 'ajax#index'
-	# root 'blogs#index'
-	# root 'blogposts#index'
-	# root 'messages#index'
-	# root 'people#index'
-	# root 'cards#index'
-	# root 'dengonban#index'
-	# root 'questions#index'
-
-
 
 	resources :board_messages
 	resources :board_users
-	
+
 
 	resources :data_pages
 	get 'helo/login_check'
@@ -26,6 +16,18 @@ Rails.application.routes.draw do
 
 	devise_for :accounts
 
+
+
+	# root 'ajax#index'
+	# root 'blogs#index'
+	# root 'blogposts#index'
+	# root 'messages#index'
+	# root 'people#index'
+	# root 'cards#index'
+	# root 'dengonban#index'
+	# root 'questions#index'
+
+=begin
 
 	### Questionary system ###
 
@@ -152,5 +154,7 @@ Rails.application.routes.draw do
 	post 'helo', to: 'helo#index'
 	post 'helo/index'
 	get 'helo/other'
+
+=end
 
 end
