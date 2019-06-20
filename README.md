@@ -10,26 +10,34 @@ It can also be used as Oogiri Community.**
 
 See gemfile for details.
 
-## Get Started
+## Advance preparation
+
+You have installed Docker. that's all
+
+```
+https://www.docker.com/products/docker-desktop  or  https://www.docker.com/get-started
+```
+
+## This Application Get Started
 
 Please download from this repository to any folder or download zipfile to desktop any place.
 
     $ git clone https://github.com/Hiro710/ChatBoard.git
     
-Update gem with bundle install
-
-    $ bundle install
-
-Next do the following which will create db/migrate/schema.rb
-
-    $ rake db:migrate    
-
-Then start the rails server
-
-    $ rails s
-
-Use browser to visit `http://localhost:3000`
-(use Chrome)
+    $ cd ChatBoard
+    
+    # DB create
+    $ docker-compose run web rake db:create
+    
+    # DB migrate
+    $ docker-compose run web rails db:migrate
+    
+    # Start rails server
+    $ docker-compose up
+    
+    # Go to localhost (Use browser Chrome)
+    http://localhost:3000
+    
 
 ## How to use
 
