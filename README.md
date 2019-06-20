@@ -5,7 +5,7 @@ It can also be used as Oogiri Community.**
 
 ## Development environment
 
-* Ruby 2.x
+* Ruby 2.6.2
 * Ruby on Rails 5.2.3
 
 See gemfile for details.
@@ -37,6 +37,5 @@ After logging in, enter your contribution content in the content field and click
 User profile editing is also available.
 
 ### MIT License  
-Copyright (c) 2018 Hiro710  
-Released under the MIT license  
-http://opensource.org/licenses/mit-license.php
+Copyright (c) since 2018 Hiro710  
+Released under the [MIT](http://opensource.org/licenses/mit-license.php) license
