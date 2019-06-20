@@ -17,7 +17,6 @@ Rails.application.routes.draw do
 	devise_for :accounts
 
 
-
 	# root 'ajax#index'
 	# root 'blogs#index'
 	# root 'blogposts#index'
